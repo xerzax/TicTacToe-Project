@@ -34,4 +34,36 @@ body{
     box-shadow: 0 0 1rem rgba(0,0,0,0.3);
     font-size: 8vmin;
     color: #922D50;
+    background-color: #FFECD1;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #040403;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #040403;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg {
+    color: white;
+    font-size: 5vmin;
+}
+
+.msg-container{
+    height: 20vmin;
+}
+
+.hide {
+    display: none;
 }
