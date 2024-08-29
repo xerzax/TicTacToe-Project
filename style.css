@@ -58,10 +58,18 @@ body{
 #msg {
     color: white;
     font-size: 5vmin;
+    padding: 2rem;
+    border: 2px solid #922D50;
 }
 
 .msg-container{
-    height: 20vmin;
+    height: 50vmin;
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
 .hide {
